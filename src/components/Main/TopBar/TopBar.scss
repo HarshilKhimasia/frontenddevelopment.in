@@ -1,0 +1,36 @@
+main {
+  .topContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    .threeContent {
+      text-align: center;
+      margin: auto;
+      &:nth-child(1) {
+        color: #fff;
+      }
+
+      .halfCircle {
+        width: 200px;
+        height: 150px;
+        background-color: #fff;
+        border-bottom-left-radius: 500px;
+        border-bottom-right-radius: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      button {
+        width: 200px;
+        height: 70px;
+        border: 0;
+        border-radius: 100px;
+        background-color: #3b3b3b;
+        span {
+          color: #fff;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

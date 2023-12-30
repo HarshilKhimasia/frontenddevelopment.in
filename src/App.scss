@@ -1,0 +1,23 @@
+@import "./components/Navbar/Navbar.scss";
+@import "./components/Main/HomePage.scss";
+@import "./components/Main/About/About.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 8% 92%;
+  grid-template-rows: 100vh;
+}
+main {
+  background-color: #000;
+
+  height: 100%;
+}
