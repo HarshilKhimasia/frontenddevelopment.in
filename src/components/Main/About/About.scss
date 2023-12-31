@@ -1,3 +1,20 @@
-h1 {
-  color: #fff;
+main {
+  .aboutContainer {
+    .aboutRow {
+      display: grid;
+      grid-template-rows: 100vh;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      column-gap: 20px;
+      .aboutCol {
+        padding: 20px;
+        h2 {
+          color: #fff;
+        }
+        p {
+          color: #ccc;
+        }
+      }
+    }
+  }
 }
